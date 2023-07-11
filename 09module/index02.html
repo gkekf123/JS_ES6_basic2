@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- export default 문은 구조분해할당 안된다 -->
+    <script type="module">
+      import Person from "./index02.js";
+
+      let a = new Person("홍길동", 20);
+
+      console.log(a.getInfo());
+    </script>
+  </body>
+</html>
